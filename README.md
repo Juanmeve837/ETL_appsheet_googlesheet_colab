@@ -87,6 +87,8 @@ Examples of the extracted information can be found in `Data/input`
 
 - Cleaned CSV files (per-machine time series, aggregated metrics).
 - Interactive Plotly charts embedded in the Colab notebook.
+    - Data visualization over approximately a year and a half, showing the behavior of the machinery. The y-axis represents the equipment units, while the x-axis represents time. The chart indicates whether a shovel was down (blue, not operating), in continuous operation (cream), or if the GPS was disconnected (white). ![viz1](docs/graf1.png)
+    - Visualization of the relationship between diesel (ACPM) gallons consumed and machine working hours, aimed at detecting potential mechanical anomalies and fuel losses due to theft or misreporting. The relationship is expected to remain linear; deviations may indicate irregularities. Red points represent refueling events within a specific interval of interest in the dataset horizon. ![viz1](docs/graf2.png)
 - A Google Sheet used as AppSheet backend.
 
 ## Notes & best practices
